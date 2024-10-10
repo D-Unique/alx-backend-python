@@ -5,5 +5,5 @@ argument and returns a str
 
 
 def to_str(n: float) -> str:
-    
-    return n
+    """fuction takes a float and return the string version"""
+    return str(n)

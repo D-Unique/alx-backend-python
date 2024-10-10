@@ -5,6 +5,6 @@ return it floor value
 """
 
 
-def floor(arg: float) -> int:
+def floor(n: float) -> int:
     """Rounds a number down to the nearest integer."""
-    return math.floor(arg)
+    return math.floor(n)
