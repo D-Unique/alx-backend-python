@@ -6,5 +6,6 @@ import asyncio
 
 async def wait_random(max_delay: int = 10) -> float:
     """this is an async function"""
+    await asyncio.sleep(random.uniform(0, max_delay))
 
     return random.uniform(0, max_delay)
