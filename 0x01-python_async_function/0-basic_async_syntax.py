@@ -4,7 +4,7 @@ import asyncio
 """This module contains a coroutine function that takes a random number """
 
 
-async def wait_random(max_delay=10):
+async def wait_random(max_delay: int = 10) -> float:
     """this is an async function"""
 
     return random.uniform(0, max_delay)
